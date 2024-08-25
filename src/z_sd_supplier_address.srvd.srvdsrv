@@ -1,0 +1,4 @@
+@EndUserText.label: 'Supplier Address'
+define service Z_SD_SUPPLIER_ADDRESS {
+  expose ZI_SUPPLIER_ADDRESS;
+}

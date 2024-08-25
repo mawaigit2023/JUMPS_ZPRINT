@@ -1,0 +1,4 @@
+@EndUserText.label: 'Service binding for num to string'
+define service Z_SD_NUM2STRING {
+  expose ZI_NUM_TO_STRING;
+}

@@ -1,0 +1,4 @@
+@EndUserText.label: 'Service Binding for delivery Data'
+define service Z_SD_DELIVERY_DATA {
+  expose ZI_DELIVERY_DATA;
+}

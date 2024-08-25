@@ -1,0 +1,4 @@
+@EndUserText.label: 'Service definition for invoice print'
+define service Z_SD_INV_PRINT {
+  expose ZI_INVOICE_PRINT;
+}

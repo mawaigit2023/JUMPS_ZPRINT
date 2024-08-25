@@ -1,0 +1,4 @@
+@EndUserText.label: 'Service definition for packing list'
+define service Z_SD_PACK_DATA {
+  expose ZI_PACK_LIST_DATA;
+}

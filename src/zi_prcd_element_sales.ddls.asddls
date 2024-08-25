@@ -1,0 +1,58 @@
+@AbapCatalog.sqlViewName: 'ZV_PRCD_SALES'
+@AbapCatalog.compiler.compareFilter: true
+@AbapCatalog.preserveKey: true
+@AccessControl.authorizationCheck: #NOT_REQUIRED
+@EndUserText.label: 'Sales PRCD element'
+define view ZI_PRCD_ELEMENT_SALES as select from I_SalesDocItemPricingElement as cond
+{
+key SalesDocument,
+key SalesDocumentItem,
+key PricingProcedureStep,
+key PricingProcedureCounter,
+ConditionApplication,
+ConditionType,
+PricingDateTime,
+PriceConditionDeterminationDte,
+ConditionCalculationType,
+ConditionBaseValue,
+ConditionRateValue,
+ConditionCurrency,
+ConditionQuantity,
+ConditionQuantityUnit,
+ConditionCategory,
+ConditionIsForStatistics,
+PricingScaleType,
+IsRelevantForAccrual,
+CndnIsRelevantForInvoiceList,
+ConditionOrigin,
+IsGroupCondition,
+ConditionRecord,
+ConditionSequentialNumber,
+TaxCode,
+WithholdingTaxCode,
+CndnRoundingOffDiffAmount,
+ConditionAmount,
+TransactionCurrency,
+ConditionControl,
+ConditionInactiveReason,
+ConditionClass,
+PrcgProcedureCounterForHeader,
+FactorForConditionBasisValue,
+StructureCondition,
+PeriodFactorForCndnBasisValue,
+PricingScaleBasis,
+ConditionScaleBasisValue,
+ConditionScaleBasisUnit,
+ConditionScaleBasisCurrency,
+CndnIsRelevantForIntcoBilling,
+ConditionIsManuallyChanged,
+ConditionIsForConfiguration,
+VariantCondition,
+ConditionRateAmount,
+ConditionRateRatio,
+ConditionRateRatioUnit,
+ConditionBaseAmount,
+ConditionBaseQuantity,
+SDDocumentCategory 
+
+}

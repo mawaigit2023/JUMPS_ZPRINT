@@ -1,0 +1,4 @@
+@EndUserText.label: 'Service definition for GRN data'
+define service Z_SD_GRN_DATA {
+  expose ZI_GRN_DATA;
+}

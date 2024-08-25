@@ -1,0 +1,4 @@
+@EndUserText.label: 'Shipping Instruction'
+define service Z_SD_SHIP_INST {
+  expose ZI_SHIP_INST_PRINT;
+}

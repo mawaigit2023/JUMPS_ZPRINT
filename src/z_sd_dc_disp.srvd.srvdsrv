@@ -1,0 +1,4 @@
+@EndUserText.label: 'Service definition for dc disp'
+define service Z_SD_DC_DISP {
+  expose ZI_DC_NOTE_DISP;
+}
